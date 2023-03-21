@@ -1,6 +1,7 @@
 #include "medsee.h"
 #include "./ui_medsee.h"
 
+// After test
 
 MedSee::MedSee(QWidget *parent)
     : QWidget(parent)
