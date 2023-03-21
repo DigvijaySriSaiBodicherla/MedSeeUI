@@ -65,3 +65,9 @@ void MedSee::on_addVisitSearchButtonByMobileNo_clicked()
     ui->stackedWidget_2->setCurrentIndex(1);
 }
 
+
+void MedSee::on_addPatentButton_clicked()
+{
+    ui->stackedWidget_2->setCurrentIndex(2);
+}
+

@@ -32,6 +32,8 @@ private slots:
 
     void on_addVisitSearchButtonByMobileNo_clicked();
 
+    void on_addPatentButton_clicked();
+
 private:
     Ui::MedSee *ui;
 };
