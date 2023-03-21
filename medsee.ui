@@ -17,9 +17,9 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>9</y>
-     <width>541</width>
-     <height>231</height>
+     <y>-1</y>
+     <width>791</width>
+     <height>621</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -27,7 +27,7 @@
 border-color: rgb(0, 0, 0);</string>
    </property>
    <property name="currentIndex">
-    <number>1</number>
+    <number>2</number>
    </property>
    <widget class="QWidget" name="loginPage">
     <widget class="QWidget" name="verticalLayoutWidget">
@@ -132,7 +132,97 @@ border-color: rgb(0, 0, 0);</string>
      </property>
     </widget>
    </widget>
-   <widget class="QWidget" name="addVisitPage"/>
+   <widget class="QWidget" name="addVisitSearchPage">
+    <widget class="QStackedWidget" name="stackedWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>411</width>
+       <height>301</height>
+      </rect>
+     </property>
+     <widget class="QWidget" name="addVisitSearchPage_1">
+      <widget class="QWidget" name="verticalLayoutWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>40</y>
+         <width>323</width>
+         <height>104</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>Patent ID</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_3"/>
+          </item>
+          <item>
+           <widget class="QPushButton" name="addVisitSearchButtonByID">
+            <property name="text">
+             <string>Search</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>Patent Name</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_4"/>
+          </item>
+          <item>
+           <widget class="QPushButton" name="addVisitSearchButtonByName">
+            <property name="text">
+             <string>Search</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>Patent Mobile No</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_5"/>
+          </item>
+          <item>
+           <widget class="QPushButton" name="addVisitSearchButtonByMobileNo">
+            <property name="text">
+             <string>Search</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="addNewPatentPage"/>
+     <widget class="QWidget" name="addVisitPage"/>
+    </widget>
+   </widget>
    <widget class="QWidget" name="editPatentPage"/>
    <widget class="QWidget" name="searchPatentPage"/>
    <widget class="QWidget" name="seeReportPage"/>

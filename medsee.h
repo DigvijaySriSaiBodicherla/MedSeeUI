@@ -26,6 +26,12 @@ private slots:
 
     void on_seeReportPageButton_clicked();
 
+    void on_addVisitSearchButtonByID_clicked();
+
+    void on_addVisitSearchButtonByName_clicked();
+
+    void on_addVisitSearchButtonByMobileNo_clicked();
+
 private:
     Ui::MedSee *ui;
 };
