@@ -78,7 +78,64 @@ border-color: rgb(0, 0, 0);</string>
      </layout>
     </widget>
    </widget>
-   <widget class="QWidget" name="nursePage"/>
+   <widget class="QWidget" name="nursePage">
+    <widget class="QPushButton" name="addVisitPageButton">
+     <property name="geometry">
+      <rect>
+       <x>29</x>
+       <y>20</y>
+       <width>121</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Add Visit</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="editPatentPageButton">
+     <property name="geometry">
+      <rect>
+       <x>29</x>
+       <y>110</y>
+       <width>121</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Edit Patent</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="seeReportPageButton">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>110</y>
+       <width>121</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>See Report</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="searchPatentPageButton">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>20</y>
+       <width>121</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Search/View Patent</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="addVisitPage"/>
+   <widget class="QWidget" name="editPatentPage"/>
+   <widget class="QWidget" name="searchPatentPage"/>
+   <widget class="QWidget" name="seeReportPage"/>
   </widget>
  </widget>
  <resources/>

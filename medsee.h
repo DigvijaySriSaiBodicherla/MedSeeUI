@@ -18,6 +18,14 @@ public:
 private slots:
     void on_loginButton_clicked();
 
+    void on_addVisitPageButton_clicked();
+
+    void on_editPatentPageButton_clicked();
+
+    void on_searchPatentPageButton_clicked();
+
+    void on_seeReportPageButton_clicked();
+
 private:
     Ui::MedSee *ui;
 };
