@@ -71,3 +71,9 @@ void MedSee::on_addPatentButton_clicked()
     ui->stackedWidget_2->setCurrentIndex(2);
 }
 
+
+void MedSee::on_addVisitButton_clicked()
+{
+    ui->stackedWidget_2->setCurrentIndex(3);
+}
+
