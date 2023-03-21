@@ -24,7 +24,7 @@ void MedSee::on_loginButton_clicked()
 
 void MedSee::on_addVisitPageButton_clicked()
 {
-    ui->stackedWidget_2->setCurrentIndex(0);
+    ui->stackedWidget->setCurrentIndex(2);
 }
 
 
