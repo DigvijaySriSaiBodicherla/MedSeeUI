@@ -118,3 +118,21 @@ void MedSee::on_searchPatentSearchButtonByMobileNo_clicked()
     ui->searchPatentStackedWidget->setCurrentIndex(1);
 }
 
+
+void MedSee::on_seeReportSearchButtonByID_clicked()
+{
+    ui->seeReportStackedWidget->setCurrentIndex(1);
+}
+
+
+void MedSee::on_seeReportSearchButtonByName_clicked()
+{
+    ui->seeReportStackedWidget->setCurrentIndex(1);
+}
+
+
+void MedSee::on_seeReportSearchButtonByMobileNo_clicked()
+{
+    ui->seeReportStackedWidget->setCurrentIndex(1);
+}
+

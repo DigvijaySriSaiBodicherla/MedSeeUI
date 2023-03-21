@@ -27,7 +27,7 @@
 border-color: rgb(0, 0, 0);</string>
    </property>
    <property name="currentIndex">
-    <number>4</number>
+    <number>5</number>
    </property>
    <widget class="QWidget" name="loginPage">
     <widget class="QWidget" name="verticalLayoutWidget">
@@ -940,7 +940,110 @@ border-color: rgb(0, 0, 0);</string>
      </widget>
     </widget>
    </widget>
-   <widget class="QWidget" name="seeReportPage"/>
+   <widget class="QWidget" name="seeReportTotalPage">
+    <widget class="QStackedWidget" name="seeReportStackedWidget">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>341</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <widget class="QWidget" name="seeReportSearchPage">
+      <widget class="QWidget" name="verticalLayoutWidget_9">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>40</y>
+         <width>323</width>
+         <height>104</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_9">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_43">
+          <item>
+           <widget class="QLabel" name="label_45">
+            <property name="text">
+             <string>Patent ID</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_43"/>
+          </item>
+          <item>
+           <widget class="QPushButton" name="seeReportSearchButtonByID">
+            <property name="text">
+             <string>Search</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_44">
+          <item>
+           <widget class="QLabel" name="label_46">
+            <property name="text">
+             <string>Patent Name</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_44"/>
+          </item>
+          <item>
+           <widget class="QPushButton" name="seeReportSearchButtonByName">
+            <property name="text">
+             <string>Search</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_45">
+          <item>
+           <widget class="QLabel" name="label_47">
+            <property name="text">
+             <string>Patent Mobile No</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_45"/>
+          </item>
+          <item>
+           <widget class="QPushButton" name="seeReportSearchButtonByMobileNo">
+            <property name="text">
+             <string>Search</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="reportPage">
+      <widget class="QLabel" name="label_48">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>80</y>
+         <width>151</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Report comes here</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
   </widget>
  </widget>
  <resources/>

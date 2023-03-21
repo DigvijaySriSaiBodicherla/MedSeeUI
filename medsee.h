@@ -50,6 +50,12 @@ private slots:
 
     void on_searchPatentSearchButtonByMobileNo_clicked();
 
+    void on_seeReportSearchButtonByID_clicked();
+
+    void on_seeReportSearchButtonByName_clicked();
+
+    void on_seeReportSearchButtonByMobileNo_clicked();
+
 private:
     Ui::MedSee *ui;
 };
