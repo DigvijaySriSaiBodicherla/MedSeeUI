@@ -48,32 +48,58 @@ void MedSee::on_seeReportPageButton_clicked()
 
 void MedSee::on_addVisitSearchButtonByID_clicked()
 {
-    ui->stackedWidget_2->setCurrentIndex(1);
+    ui->addVisitStackedWidget->setCurrentIndex(1);
 }
 
 
 void MedSee::on_addVisitSearchButtonByName_clicked()
 {
 //    ui->stackedWidget->stackedWidget_2->setCurrentIndex(2);
-    ui->stackedWidget_2->setCurrentIndex(2);
+    ui->addVisitStackedWidget->setCurrentIndex(2);
 }
 
 
 void MedSee::on_addVisitSearchButtonByMobileNo_clicked()
 {
 //    ui->stackedWidget->stackedWidget_2->setCurrentIndex(1);
-    ui->stackedWidget_2->setCurrentIndex(1);
+    ui->addVisitStackedWidget->setCurrentIndex(1);
 }
 
 
 void MedSee::on_addPatentButton_clicked()
 {
-    ui->stackedWidget_2->setCurrentIndex(2);
+    ui->addVisitStackedWidget->setCurrentIndex(2);
 }
 
 
 void MedSee::on_addVisitButton_clicked()
 {
-    ui->stackedWidget_2->setCurrentIndex(3);
+    ui->addVisitStackedWidget->setCurrentIndex(3);
+}
+
+
+void MedSee::on_editPatentSearchButtonByID_clicked()
+{
+    ui->editPatentStackedWidget->setCurrentIndex(1);
+}
+
+
+
+
+void MedSee::on_editPatentSearchButtonByName_clicked()
+{
+    ui->editPatentStackedWidget->setCurrentIndex(1);
+}
+
+
+void MedSee::on_editPatentSearchButtonByMobileNo_clicked()
+{
+    ui->editPatentStackedWidget->setCurrentIndex(1);
+}
+
+
+void MedSee::on_editPatentButton_clicked()
+{
+    ui->editPatentStackedWidget->setCurrentIndex(2);
 }
 
