@@ -15,6 +15,9 @@ public:
     MedSee(QWidget *parent = nullptr);
     ~MedSee();
 
+private slots:
+    void on_loginButton_clicked();
+
 private:
     Ui::MedSee *ui;
 };

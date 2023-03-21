@@ -13,3 +13,9 @@ MedSee::~MedSee()
     delete ui;
 }
 
+
+void MedSee::on_loginButton_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(1);
+}
+
