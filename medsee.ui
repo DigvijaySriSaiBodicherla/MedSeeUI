@@ -27,7 +27,7 @@
 border-color: rgb(0, 0, 0);</string>
    </property>
    <property name="currentIndex">
-    <number>0</number>
+    <number>1</number>
    </property>
    <widget class="QWidget" name="loginPage">
     <widget class="QWidget" name="verticalLayoutWidget">
@@ -78,6 +78,7 @@ border-color: rgb(0, 0, 0);</string>
      </layout>
     </widget>
    </widget>
+   <widget class="QWidget" name="nursePage"/>
   </widget>
  </widget>
  <resources/>
