@@ -83,8 +83,6 @@ void MedSee::on_editPatentSearchButtonByID_clicked()
 }
 
 
-
-
 void MedSee::on_editPatentSearchButtonByName_clicked()
 {
     ui->editPatentStackedWidget->setCurrentIndex(1);
@@ -100,5 +98,23 @@ void MedSee::on_editPatentSearchButtonByMobileNo_clicked()
 void MedSee::on_editPatentButton_clicked()
 {
     ui->editPatentStackedWidget->setCurrentIndex(2);
+}
+
+
+void MedSee::on_searchPatentSearchButtonByID_clicked()
+{
+    ui->searchPatentStackedWidget->setCurrentIndex(1);
+}
+
+
+void MedSee::on_searchPatentSearchButtonByName_clicked()
+{
+    ui->searchPatentStackedWidget->setCurrentIndex(1);
+}
+
+
+void MedSee::on_searchPatentSearchButtonByMobileNo_clicked()
+{
+    ui->searchPatentStackedWidget->setCurrentIndex(1);
 }
 
