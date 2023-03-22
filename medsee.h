@@ -56,6 +56,30 @@ private slots:
 
     void on_seeReportSearchButtonByMobileNo_clicked();
 
+    void on_addVisitSearchPageBackButton_clicked();
+
+    void on_addPatentPageBackButton_clicked();
+
+    void on_addVisitPageBackButton_clicked();
+
+    void on_addingVisitSuccessfulPageDoneButton_clicked();
+
+    void on_editPatentSearchPageBackButton_clicked();
+
+    void on_editPatentPageBackButton_clicked();
+
+    void on_editingPatentSuccessfulPageDoneButton_clicked();
+
+    void on_searchPatentPageBackButton_clicked();
+
+    void on_searchResultPageDoneButton_clicked();
+
+    void on_seeReportSearchPageBackButton_clicked();
+
+    void on_reportPageDoneButton_clicked();
+
+    void on_nursePageLogoutButton_clicked();
+
 private:
     Ui::MedSee *ui;
 };

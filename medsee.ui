@@ -17,7 +17,7 @@
    <property name="geometry">
     <rect>
      <x>0</x>
-     <y>10</y>
+     <y>50</y>
      <width>791</width>
      <height>621</height>
     </rect>
@@ -97,11 +97,22 @@ border-color: rgb(0, 0, 0);</string>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_10">
       <item>
-       <widget class="QLabel" name="label_50">
-        <property name="text">
-         <string>Nurse Page</string>
-        </property>
-       </widget>
+       <layout class="QHBoxLayout" name="horizontalLayout_56">
+        <item>
+         <widget class="QLabel" name="label_50">
+          <property name="text">
+           <string>Nurse Page</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="nursePageLogoutButton">
+          <property name="text">
+           <string>Logout</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </item>
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_46">
@@ -164,11 +175,22 @@ border-color: rgb(0, 0, 0);</string>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_2">
         <item>
-         <widget class="QLabel" name="label_51">
-          <property name="text">
-           <string>Search for Patent to add Visit</string>
-          </property>
-         </widget>
+         <layout class="QHBoxLayout" name="horizontalLayout_49">
+          <item>
+           <widget class="QLabel" name="label_51">
+            <property name="text">
+             <string>Search for Patent to add Visit</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="addVisitSearchPageBackButton">
+            <property name="text">
+             <string>Back</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
         </item>
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_3">
@@ -248,11 +270,22 @@ border-color: rgb(0, 0, 0);</string>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_3">
         <item>
-         <widget class="QLabel" name="label_52">
-          <property name="text">
-           <string>Add Patient</string>
-          </property>
-         </widget>
+         <layout class="QHBoxLayout" name="horizontalLayout_51">
+          <item>
+           <widget class="QLabel" name="label_52">
+            <property name="text">
+             <string>Add Patient</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="addPatentPageBackButton">
+            <property name="text">
+             <string>Back</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
         </item>
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_8">
@@ -402,11 +435,22 @@ border-color: rgb(0, 0, 0);</string>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_4">
         <item>
-         <widget class="QLabel" name="label_53">
-          <property name="text">
-           <string>Add Visit</string>
-          </property>
-         </widget>
+         <layout class="QHBoxLayout" name="horizontalLayout_50">
+          <item>
+           <widget class="QLabel" name="label_53">
+            <property name="text">
+             <string>Add Visit</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="addVisitPageBackButton">
+            <property name="text">
+             <string>Back</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
         </item>
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_9">
@@ -558,6 +602,19 @@ border-color: rgb(0, 0, 0);</string>
         <string>Addition of Visit got successful</string>
        </property>
       </widget>
+      <widget class="QPushButton" name="addingVisitSuccessfulPageDoneButton">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>180</y>
+         <width>80</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Done</string>
+       </property>
+      </widget>
      </widget>
     </widget>
    </widget>
@@ -583,11 +640,22 @@ border-color: rgb(0, 0, 0);</string>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_5">
         <item>
-         <widget class="QLabel" name="label_54">
-          <property name="text">
-           <string>Search Patient to edit Details</string>
-          </property>
-         </widget>
+         <layout class="QHBoxLayout" name="horizontalLayout_52">
+          <item>
+           <widget class="QLabel" name="label_54">
+            <property name="text">
+             <string>Search Patient to edit Details</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="editPatentSearchPageBackButton">
+            <property name="text">
+             <string>Back</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
         </item>
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_24">
@@ -667,11 +735,22 @@ border-color: rgb(0, 0, 0);</string>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_6">
         <item>
-         <widget class="QLabel" name="label_55">
-          <property name="text">
-           <string>Edit Patient Details</string>
-          </property>
-         </widget>
+         <layout class="QHBoxLayout" name="horizontalLayout_53">
+          <item>
+           <widget class="QLabel" name="label_55">
+            <property name="text">
+             <string>Edit Patient Details</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="editPatentPageBackButton">
+            <property name="text">
+             <string>Back</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
         </item>
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_32">
@@ -753,6 +832,19 @@ border-color: rgb(0, 0, 0);</string>
         <string>Editing Patent Successful</string>
        </property>
       </widget>
+      <widget class="QPushButton" name="editingPatentSuccessfulPageDoneButton">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>140</y>
+         <width>80</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Done</string>
+       </property>
+      </widget>
      </widget>
     </widget>
    </widget>
@@ -763,7 +855,7 @@ border-color: rgb(0, 0, 0);</string>
        <x>20</x>
        <y>20</y>
        <width>361</width>
-       <height>291</height>
+       <height>331</height>
       </rect>
      </property>
      <widget class="QWidget" name="searchPetentPage">
@@ -778,11 +870,22 @@ border-color: rgb(0, 0, 0);</string>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_7">
         <item>
-         <widget class="QLabel" name="label_56">
-          <property name="text">
-           <string>Search Patient Details</string>
-          </property>
-         </widget>
+         <layout class="QHBoxLayout" name="horizontalLayout_54">
+          <item>
+           <widget class="QLabel" name="label_56">
+            <property name="text">
+             <string>Search Patient Details</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="searchPatentPageBackButton">
+            <property name="text">
+             <string>Back</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
         </item>
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_27">
@@ -857,7 +960,7 @@ border-color: rgb(0, 0, 0);</string>
          <x>30</x>
          <y>10</y>
          <width>281</width>
-         <height>272</height>
+         <height>288</height>
         </rect>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_8">
@@ -994,6 +1097,13 @@ border-color: rgb(0, 0, 0);</string>
           </item>
          </layout>
         </item>
+        <item>
+         <widget class="QPushButton" name="searchResultPageDoneButton">
+          <property name="text">
+           <string>Done</string>
+          </property>
+         </widget>
+        </item>
        </layout>
       </widget>
      </widget>
@@ -1016,16 +1126,27 @@ border-color: rgb(0, 0, 0);</string>
          <x>0</x>
          <y>40</y>
          <width>323</width>
-         <height>104</height>
+         <height>106</height>
         </rect>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_9">
         <item>
-         <widget class="QLabel" name="label_58">
-          <property name="text">
-           <string>Search Patient to get Report</string>
-          </property>
-         </widget>
+         <layout class="QHBoxLayout" name="horizontalLayout_55">
+          <item>
+           <widget class="QLabel" name="label_58">
+            <property name="text">
+             <string>Search Patient to get Report</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="seeReportSearchPageBackButton">
+            <property name="text">
+             <string>Back</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
         </item>
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_43">
@@ -1105,6 +1226,19 @@ border-color: rgb(0, 0, 0);</string>
        </property>
        <property name="text">
         <string>Report comes here</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="reportPageDoneButton">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>110</y>
+         <width>80</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Done</string>
        </property>
       </widget>
      </widget>

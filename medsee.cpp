@@ -137,3 +137,74 @@ void MedSee::on_seeReportSearchButtonByMobileNo_clicked()
     ui->seeReportStackedWidget->setCurrentIndex(1);
 }
 
+
+void MedSee::on_addVisitSearchPageBackButton_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(1);
+}
+
+
+void MedSee::on_addPatentPageBackButton_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(2);
+}
+
+
+void MedSee::on_addVisitPageBackButton_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(2);
+}
+
+
+void MedSee::on_addingVisitSuccessfulPageDoneButton_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(1);
+}
+
+
+void MedSee::on_editPatentSearchPageBackButton_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(1);
+}
+
+
+void MedSee::on_editPatentPageBackButton_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(3);
+}
+
+
+void MedSee::on_editingPatentSuccessfulPageDoneButton_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(1);
+}
+
+
+void MedSee::on_searchPatentPageBackButton_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(1);
+}
+
+
+void MedSee::on_searchResultPageDoneButton_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(1);
+}
+
+
+void MedSee::on_seeReportSearchPageBackButton_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(1);
+}
+
+void MedSee::on_reportPageDoneButton_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(1);
+}
+
+
+void MedSee::on_nursePageLogoutButton_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(0);
+}
+
