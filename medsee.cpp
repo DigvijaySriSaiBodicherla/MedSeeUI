@@ -158,6 +158,7 @@ void MedSee::on_addVisitPageBackButton_clicked()
 
 void MedSee::on_addingVisitSuccessfulPageDoneButton_clicked()
 {
+    ui->addVisitStackedWidget->setCurrentIndex(0);
     ui->stackedWidget->setCurrentIndex(1);
 }
 
@@ -176,6 +177,7 @@ void MedSee::on_editPatentPageBackButton_clicked()
 
 void MedSee::on_editingPatentSuccessfulPageDoneButton_clicked()
 {
+    ui->editPatentStackedWidget->setCurrentIndex(0);
     ui->stackedWidget->setCurrentIndex(1);
 }
 
@@ -188,6 +190,7 @@ void MedSee::on_searchPatentPageBackButton_clicked()
 
 void MedSee::on_searchResultPageDoneButton_clicked()
 {
+    ui->searchPatentStackedWidget->setCurrentIndex(0);
     ui->stackedWidget->setCurrentIndex(1);
 }
 
@@ -199,7 +202,9 @@ void MedSee::on_seeReportSearchPageBackButton_clicked()
 
 void MedSee::on_reportPageDoneButton_clicked()
 {
+    ui->seeReportStackedWidget->setCurrentIndex(0);
     ui->stackedWidget->setCurrentIndex(1);
+//    ui->seeReportStackedWidget->setCurrentIndex(0);
 }
 
 
