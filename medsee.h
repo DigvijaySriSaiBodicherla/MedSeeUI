@@ -80,6 +80,51 @@ private slots:
 
     void on_nursePageLogoutButton_clicked();
 
+    void on_doctorPageLogoutButton_clicked();
+
+    void on_searchPatentPageDoctorButton_clicked();
+
+    void on_seeReportPageDoctorButton_clicked();
+
+    void on_addStudyPageButton_clicked();
+
+    void on_addSeriesPageButton_clicked();
+
+    void on_addExamPageButton_clicked();
+
+    void on_searchByVisitIdPageButton_clicked();
+
+    void on_searchByVisitIdPageBackButton_clicked();
+
+
+    void on_addingStudySuccessfulPageDoneButton_clicked();
+
+    void on_addStudyButton_clicked();
+
+    void on_searchByStudyIdPageBackButton_clicked();
+
+    void on_searchByStudyIdPageButton_clicked();
+
+    void on_addSeriesPageBackButton_clicked();
+
+    void on_addSeriesButton_clicked();
+
+    void on_addingSeriesSuccessfulPageDoneButton_clicked();
+
+    void on_searchBySeriesIdPageBackButton_clicked();
+
+    void on_searchBySeriesIdPageButton_clicked();
+
+    void on_addExamPageBackButton_clicked();
+
+    void on_addExamButton_clicked();
+
+    void on_addingExamSuccessfulPageDoneButton_clicked();
+
+    void on_addStudyPageBackButton_clicked();
+
+    void on_tempButtonLoginDoctor_clicked();
+
 private:
     Ui::MedSee *ui;
 };
